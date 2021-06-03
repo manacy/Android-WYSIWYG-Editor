@@ -4,21 +4,21 @@ android {
         debug {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
-            storeFile file('/Users/irshad/Documents/pet/Android-WYSIWYG-Editor/debug.keystore')
+           // storeFile file('/Users/irshad/Documents/pet/Android-WYSIWYG-Editor/debug.keystore')
             storePassword 'android'
         }
         release {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
-            storeFile file('/Users/irshad/Documents/pet/Android-WYSIWYG-Editor/debug.keystore')
+           // storeFile file('/Users/irshad/Documents/pet/Android-WYSIWYG-Editor/debug.keystore')
             storePassword 'android'
         }
     }
-    compileSdkVersion 27
+    compileSdkVersion 29
     defaultConfig {
         applicationId "com.github.irshulx.wysiwyg_editor"
         minSdkVersion 15
-        targetSdkVersion 27
+        targetSdkVersion 29
         versionCode 9
         versionName "3.0.3"
     }
